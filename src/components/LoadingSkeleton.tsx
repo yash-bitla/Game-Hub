@@ -3,7 +3,7 @@ import { Card, CardBody, Skeleton, SkeletonText } from "@chakra-ui/react";
 function LoadingSkeleton() {
   return (
     <>
-      <Card width="250px" borderRadius="10px" overflow="hidden">
+      <Card borderRadius="10px" overflow="hidden">
         <Skeleton height="280px">
           <CardBody>
             <SkeletonText></SkeletonText>
